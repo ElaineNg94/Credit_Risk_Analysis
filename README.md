@@ -4,8 +4,17 @@ The purpose of this analysis was to help the lead data scientist, Jill at the Fa
 
 ## Results:
 
-**Naive Random Oversampling**
-- -
+### Naive Random Oversampling
+
+- #### Balanced Accuracy Score:
+<img width="723" alt="Naive Random Oversampling balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125186100-39e0fc00-e1dd-11eb-9d95-dd267a5f608b.png">
+
+- #### Confusion Matrix:
+<img width="701" alt="Naive Random Oversampling confusion matrix" src="https://user-images.githubusercontent.com/79742633/125185894-284b2480-e1dc-11eb-82d2-f4870a6eb8cf.png">
+
+- #### Imbalanced Classification Report:
+<img width="702" alt="Naive Random Oversampling imbalanced classification report" src="https://user-images.githubusercontent.com/79742633/125185893-27b28e00-e1dc-11eb-9632-e799c23ee3b5.png">
+
 
 **SMOTE Oversampling**
 - -

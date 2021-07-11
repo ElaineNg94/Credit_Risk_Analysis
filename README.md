@@ -4,11 +4,10 @@ The purpose of this analysis was to help the lead data scientist, Jill to predic
 
 ## Results:
 
-### Naive Random Oversampling
+**Naive Random Oversampling**
 
 - #### Balanced Accuracy Score:
 <img width="723" alt="Naive Random Oversampling balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125186100-39e0fc00-e1dd-11eb-9d95-dd267a5f608b.png">
-According to the picture shown above, the balanced accuracy score when using the Naive Random model of oversampling is 0.6603423204808787. This model was where the algorithms RandomOverSampler and LogisticRegression were used to make the output 0.6603423204808787.
 
 - #### Confusion Matrix:
 <img width="701" alt="Naive Random Oversampling confusion matrix" src="https://user-images.githubusercontent.com/79742633/125185894-284b2480-e1dc-11eb-82d2-f4870a6eb8cf.png">
@@ -16,6 +15,7 @@ According to the picture shown above, the balanced accuracy score when using the
 - #### Imbalanced Classification Report:
 <img width="702" alt="Naive Random Oversampling imbalanced classification report" src="https://user-images.githubusercontent.com/79742633/125185893-27b28e00-e1dc-11eb-9632-e799c23ee3b5.png">
 
+From these pictures shown above, when using Naive Random Oversampling the balanced accuracy score is 0.6603423204808787. The precision score was ----... and the recall score was ----...
 
 **SMOTE Oversampling**
 
@@ -30,6 +30,8 @@ According to the picture shown above, the balanced accuracy score when using the
 - #### Imbalanced Classification Report:
 <img width="720" alt="SMOTE Oversampling imbalanced classification report" src="https://user-images.githubusercontent.com/79742633/125192198-70c60a80-e1fb-11eb-9f39-0d7e30952f1d.png">
 
+From these pictures shown above, when using SMOTE Oversampling the balanced accuracy score is ----... The precision score was ----... and the recall score was ----...
+
 **ClusterCentroids Undersampling**
 
 - #### Balanced Accuracy Score:
@@ -43,6 +45,8 @@ According to the picture shown above, the balanced accuracy score when using the
 - #### Imbalanced Classification Report:
 <img width="718" alt="ClusterCentroids Undersampling classification report" src="https://user-images.githubusercontent.com/79742633/125192190-6572df00-e1fb-11eb-9d94-fbe21236146e.png">
 
+From these pictures shown above, when using ClusterCentroids Undersampling the balanced accuracy score is ----... The precision score was ----... and the recall score was ----...
+
 **SMOTEENN Combination Sampling**
 
 - #### Balanced Accuracy Score:
@@ -55,6 +59,8 @@ According to the picture shown above, the balanced accuracy score when using the
 
 - #### Imbalanced Classification Report:
 <img width="721" alt="SMOTEENN Combination sampling classification report" src="https://user-images.githubusercontent.com/79742633/125192200-715ea100-e1fb-11eb-8315-14c6c513302b.png">
+
+From these pictures shown above, when using SMOTEENN Combination Sampling the balanced accuracy score is ----... The precision score was ----... and the recall score was ----...
 
 **Balanced Random Forest Classifier**
 

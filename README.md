@@ -4,7 +4,7 @@ The purpose of this analysis was to help the lead data scientist, Jill to predic
 
 ## Results:
 
-**Naive Random Oversampling**
+### Naive Random Oversampling
 
 - #### Balanced Accuracy Score:
 <img width="723" alt="Naive Random Oversampling balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125186100-39e0fc00-e1dd-11eb-9d95-dd267a5f608b.png">
@@ -15,14 +15,12 @@ The purpose of this analysis was to help the lead data scientist, Jill to predic
 - #### Imbalanced Classification Report:
 <img width="702" alt="Naive Random Oversampling imbalanced classification report" src="https://user-images.githubusercontent.com/79742633/125185893-27b28e00-e1dc-11eb-9632-e799c23ee3b5.png">
 
-From these pictures shown above, when using Naive Random Oversampling the balanced accuracy score is 0.6603423204808787. The precision score was ----... and the recall score was ----...
+From these pictures shown above, when using **Naive Random Oversampling** the balanced accuracy score is 0.6603423204808787. The precision score was 0.99 and the recall score was 0.58.
 
-**SMOTE Oversampling**
+### SMOTE Oversampling
 
 - #### Balanced Accuracy Score:
 <img width="726" alt="SMOTE Oversampling balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125192203-71f73780-e1fb-11eb-9333-b185d851eb18.png">
-
-- According to the picture shown above, the balanced accuracy score when using the SMOTE model of oversampling is...
 
 - #### Confusion Matrix:
 <img width="726" alt="SMOTE Oversampling confusion matrix" src="https://user-images.githubusercontent.com/79742633/125192205-71f73780-e1fb-11eb-8691-4e610624b7ef.png">
@@ -30,14 +28,12 @@ From these pictures shown above, when using Naive Random Oversampling the balanc
 - #### Imbalanced Classification Report:
 <img width="720" alt="SMOTE Oversampling imbalanced classification report" src="https://user-images.githubusercontent.com/79742633/125192198-70c60a80-e1fb-11eb-9f39-0d7e30952f1d.png">
 
-From these pictures shown above, when using SMOTE Oversampling the balanced accuracy score is ----... The precision score was ----... and the recall score was ----...
+From these pictures shown above, when using **SMOTE Oversampling** the balanced accuracy score is 0.6537310478007576. The precision score was 0.99 and the recall score was 0.68.
 
-**ClusterCentroids Undersampling**
+### ClusterCentroids Undersampling
 
 - #### Balanced Accuracy Score:
 <img width="720" alt="ClusterCentroids Undersampling balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125192192-660b7580-e1fb-11eb-89ed-daec65183a6b.png">
-
-- According to the picture shown above, the balanced accuracy score when using the ClusterCentroids model of undersampling is...
 
 - #### Confusion Matrix:
 <img width="720" alt="ClusterCentroids Undersampling confusion matrix" src="https://user-images.githubusercontent.com/79742633/125192191-660b7580-e1fb-11eb-8168-0da73cc1b339.png">
@@ -45,14 +41,12 @@ From these pictures shown above, when using SMOTE Oversampling the balanced accu
 - #### Imbalanced Classification Report:
 <img width="718" alt="ClusterCentroids Undersampling classification report" src="https://user-images.githubusercontent.com/79742633/125192190-6572df00-e1fb-11eb-9d94-fbe21236146e.png">
 
-From these pictures shown above, when using ClusterCentroids Undersampling the balanced accuracy score is ----... The precision score was ----... and the recall score was ----...
+From these pictures shown above, when using **ClusterCentroids Undersampling** the balanced accuracy score is 0.5447046721744204. The precision score was 0.99 and the recall score was 0.40.
 
-**SMOTEENN Combination Sampling**
+### SMOTEENN Combination Sampling
 
 - #### Balanced Accuracy Score:
 <img width="725" alt="SMOTEENN Combination sampling balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125192199-715ea100-e1fb-11eb-8156-666b4bfb9f17.png">
-
-- According to the picture shown above, the balanced accuracy score when using the SMOTEENN model of combination sampling is...
 
 - #### Confusion Matrix:
 <img width="725" alt="SMOTEENN Combination sampling confusion matrix" src="https://user-images.githubusercontent.com/79742633/125192202-715ea100-e1fb-11eb-92d0-103245b3ec92.png">
@@ -60,27 +54,35 @@ From these pictures shown above, when using ClusterCentroids Undersampling the b
 - #### Imbalanced Classification Report:
 <img width="721" alt="SMOTEENN Combination sampling classification report" src="https://user-images.githubusercontent.com/79742633/125192200-715ea100-e1fb-11eb-8315-14c6c513302b.png">
 
-From these pictures shown above, when using SMOTEENN Combination Sampling the balanced accuracy score is ----... The precision score was ----... and the recall score was ----...
+From these pictures shown above, when using **SMOTEENN Combination Sampling** the balanced accuracy score is 0.6447993752836463. The precision score was 0.99. and the recall score was 0.57.
 
-**Balanced Random Forest Classifier**
-
-- #### Balanced Accuracy Score:
-
-
-- #### Confusion Matrix:
-
-
-- #### Imbalanced Classification Report:
-
-**Easy Ensemble AdaBoost Classifier**
+### Balanced Random Forest Classifier
 
 - #### Balanced Accuracy Score:
-
+<img width="728" alt="balanced random forest balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125234611-e8487800-e295-11eb-947b-aa1bc3b2952f.png">
 
 - #### Confusion Matrix:
-
+<img width="728" alt="balanced random forest confusion matrix" src="https://user-images.githubusercontent.com/79742633/125234612-e8487800-e295-11eb-89d2-bfc3a72f67fe.png">
 
 - #### Imbalanced Classification Report:
+<img width="726" alt="balanced random forest imbalanced classification" src="https://user-images.githubusercontent.com/79742633/125234613-e8e10e80-e295-11eb-9804-c1444451f9ee.png">
+
+From these pictures shown above, when using **Balanced Random Forest Classifier** the balanced accuracy score is 0.7885466545953005. The precision score was 0.99. and the recall score was 0.87.
+
+### Easy Ensemble AdaBoost Classifier
+
+- #### Balanced Accuracy Score:
+<img width="727" alt="easy ensemble balanced accuracy" src="https://user-images.githubusercontent.com/79742633/125234635-eed6ef80-e295-11eb-862a-83e3a5c3eecf.png">
+
+- #### Confusion Matrix:
+<img width="727" alt="easy ensemble confusion matrix" src="https://user-images.githubusercontent.com/79742633/125234630-ee3e5900-e295-11eb-8de7-647beae509f7.png">
+
+- #### Imbalanced Classification Report:
+<img width="728" alt="easy ensemble imbalanced classification" src="https://user-images.githubusercontent.com/79742633/125234632-ee3e5900-e295-11eb-93f5-b3b21b02ba2a.png">
+
+From these pictures shown above, when using **Easy Ensemble AdaBoost Classifier** the balanced accuracy score is 0.9316600714093861. The precision score was 0.99. and the recall score was 0.94.
 
 ## Summary:
-Summary… I would recommend the ___ method…
+When looking at these six different models, I noticed that all of these models came out with the same precision score of 0.99, but different recall scores.
+
+I would recommend the **Easy Ensemble** method because it had the highest recall score out of the rest of these models.

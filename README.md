@@ -54,7 +54,7 @@ From these pictures shown above, when using **ClusterCentroids Undersampling** t
 - #### Imbalanced Classification Report:
 <img width="721" alt="SMOTEENN Combination sampling classification report" src="https://user-images.githubusercontent.com/79742633/125192200-715ea100-e1fb-11eb-8315-14c6c513302b.png">
 
-From these pictures shown above, when using **SMOTEENN Combination Sampling** the balanced accuracy score is 0.6447993752836463. The precision score was 0.99. and the recall score was 0.57.
+From these pictures shown above, when using **SMOTEENN Combination Sampling** the balanced accuracy score is 0.6447993752836463. The precision score was 0.99 and the recall score was 0.57.
 
 ### Balanced Random Forest Classifier
 
@@ -67,7 +67,7 @@ From these pictures shown above, when using **SMOTEENN Combination Sampling** th
 - #### Imbalanced Classification Report:
 <img width="726" alt="balanced random forest imbalanced classification" src="https://user-images.githubusercontent.com/79742633/125234613-e8e10e80-e295-11eb-9804-c1444451f9ee.png">
 
-From these pictures shown above, when using **Balanced Random Forest Classifier** the balanced accuracy score is 0.7885466545953005. The precision score was 0.99. and the recall score was 0.87.
+From these pictures shown above, when using **Balanced Random Forest Classifier** the balanced accuracy score is 0.7885466545953005. The precision score was 0.99 and the recall score was 0.87.
 
 ### Easy Ensemble AdaBoost Classifier
 
@@ -80,7 +80,7 @@ From these pictures shown above, when using **Balanced Random Forest Classifier*
 - #### Imbalanced Classification Report:
 <img width="728" alt="easy ensemble imbalanced classification" src="https://user-images.githubusercontent.com/79742633/125234632-ee3e5900-e295-11eb-93f5-b3b21b02ba2a.png">
 
-From these pictures shown above, when using **Easy Ensemble AdaBoost Classifier** the balanced accuracy score is 0.9316600714093861. The precision score was 0.99. and the recall score was 0.94.
+From these pictures shown above, when using **Easy Ensemble AdaBoost Classifier** the balanced accuracy score is 0.9316600714093861. The precision score was 0.99 and the recall score was 0.94.
 
 ## Summary:
 When looking at these six different models, I noticed that all of these models came out with the same precision score of 0.99, but different recall scores. These six analysis also showed that all of them are more sensitive than precise, which that can be good when detecting credit risk because it can detect more fraud and see if it actually is fraud. We also looked at the balanced accuracy score of each model. **ClusterCentroids Undersampling** had the lowest balanced accuracy score and lowest recall score compared to the rest of the models, so I wouldn’t recommend the ClusterCentroids Undersampling model to predict credit risk. The ClusterCentroids model was also the only model that used undersampling. That can show that undersampling is not good when detecting credit risk. I would recommend the **EasyEnsembleClassifier** method because it had the highest balanced accuracy score and highest recall score out of the rest of these models, which means it can be good at detecting credit risk.
